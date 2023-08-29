@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: rgb(70, 65, 65);
+}
+
+nav{
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 30px 10px;
+    height: 10px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    padding: 10px 90px;
+}
+
+nav .brand {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+nav .brand a{
+   text-decoration: none;
+   color: red;
+}
+
+nav .menu a{
+    text-decoration: none;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+}
+
+nav .menu li {
+    list-style: none;
+    padding: 10px;
+}
+
+nav .menu li:hover {
+    background-color: rgb(182, 46, 46);
+}
+
+nav .menu .dropdown{
+    display: none;
+}
+
+nav .ul .li:hover .dropdown {
+    display: block;
+    background-color: black;
+    position: absolute;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.col-sm-4 {
+    color: white;
+    display: flex ;
+    padding: 10px 30px;
+}
+
+.col-sm-8 {
+    padding: 30px 500px;
+   color: white
+}
+
+.judul1{
+    color: red;
+    padding: 0px 30px;
+}
+
+.judul2 {
+    color: red;
+    padding: 10px 30px;
+}
